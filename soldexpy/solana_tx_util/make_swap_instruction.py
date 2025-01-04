@@ -1,6 +1,5 @@
 from solana.rpc.api import Client
-from solana.transaction import AccountMeta
-from solders.instruction import Instruction
+from solders.instruction import Instruction, AccountMeta
 from solders.keypair import Keypair
 from solders.pubkey import Pubkey
 
